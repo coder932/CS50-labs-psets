@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="page2.html">page 2</a></li>
+    <li><a href="page3.html">page 3</a></li>
+    <li>snake game</li>
+</ul>
+    <h4>Snake game only works on laptop, if you die then click refresh</h4>
+    <button onClick="window.location.reload();">Refresh Page</button>
+    <title>Snake game</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas{
+    }
+    </style>
+</head>
+<link rel="stylesheet" href="main.css">
+<body>
+    <h1>Snake</h1>
+
+    <canvas id="game" width="400" height="400"/>
+    <script src="sketch.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+sort1 uses: bubble sort
+
+How do you know?: I know that sort1 uses bubble sort because it took the longest
+to sort the numbers out of the three.
+
+sort2 uses: merge sort
+
+How do you know?: I know that sort2 uses merge sort because for the random list it was the fastest
+at sorting the list.
+
+sort3 uses: selection sort
+
+How do you know?: I know that sort3 is selection sort because in the random lists it was in between merge and bubble sort
+in time to sort the list.
